@@ -142,13 +142,13 @@ address a:hover {
   text-align: center;
 }
 
-.feature {
+.features {
   display: inline-block;
   margin: 0 auto;
   margin-top: auto;
 }
 
-.feature li {
+.features li {
   display: inline-block;
   width: 200px;
   height: auto;
