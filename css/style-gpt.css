@@ -1,0 +1,126 @@
+/* Genel Ayarlar */
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f9f9f9;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Header */
+.header {
+  width: 100%;
+  background-color: #333;
+  color: #fff;
+  padding: 20px 15px;
+  position: relative;
+  text-align: center; /* Ortalamak için */
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.logo-renk {
+  color: #f39c12; /* Logo için farklı renk */
+}
+
+.menu-list {
+  display: inline-block; /* Yatay dizilim için */
+  margin-bottom: 10px;
+}
+
+.menu-list li {
+  display: inline; /* Yatay dizilim */
+  margin: 0 10px;
+}
+
+address {
+  display: block;
+  margin-top: 10px;
+  font-style: normal;
+}
+
+address a {
+  display: block;
+  color: #ddd;
+  margin-bottom: 5px;
+}
+
+/* Hero Bölümü */
+.hero-image {
+  height: 60vh;
+  background: url("https://via.placeholder.com/1920x1080") no-repeat center
+    center/cover;
+  text-align: center;
+  padding-top: 20vh; /* İçeriği dikeyde ortalamak için */
+  color: #fff;
+}
+
+.text {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.button {
+  background-color: #f39c12;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.button:hover {
+  background-color: #e67e22;
+}
+
+/* Section1 */
+.section1 {
+  padding: 50px 15px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.feature {
+  display: inline-block; /* Listeyi yatay hizalamak için */
+  text-align: left;
+  width: 100%;
+  max-width: 900px; /* Maksimum genişlik */
+}
+
+.feature li {
+  display: inline-block; /* Yatay dizilim */
+  width: 45%; /* İki sütun düzeni için genişlik */
+  margin: 2.5%; /* Aralarına boşluk */
+  vertical-align: top;
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.feature h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.feature p {
+  font-size: 14px;
+  line-height: 1.6;
+}
