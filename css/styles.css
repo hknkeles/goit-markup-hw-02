@@ -9,10 +9,11 @@
 }
 
 body {
-  font-family: "Roboto", serif;
+  font-family: "Roboto", "sans-serif";
   font-size: 16px;
   letter-spacing: 0.02em;
   line-height: 1.5;
+  color: var(--slate);
 }
 
 a {
@@ -40,7 +41,7 @@ a {
   left: 20%;
   transform: translate(-50%, -50%);
 }
-.logo-renk {
+.logo-color {
   color: var(--iris);
 }
 
@@ -58,7 +59,7 @@ a {
   text-decoration: none;
   font-size: 16px;
   color: var(--navy-blue);
-  font-weight: medium;
+  font-weight: 500;
   line-height: 1.5;
   letter-spacing: 1.2;
 }
@@ -238,9 +239,6 @@ footer {
   position: absolute;
   top: 40%;
   left: 10%;
-}
-.logo-renk {
-  color: var(--iris);
 }
 
 .info {
